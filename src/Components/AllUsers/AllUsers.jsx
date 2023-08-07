@@ -5,7 +5,7 @@ import User from '../User/User';
 
 const AllUsers = () => {
     const usersData=useLoaderData();
-    console.log(usersData);
+    // console.log(usersData);
     return (
         <div>
             <h2 className='text-center'>Users..</h2>
